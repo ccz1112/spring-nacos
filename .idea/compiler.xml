@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gateway-openApi" />
+        <module name="service-api-student" />
+        <module name="common" />
+        <module name="gateway-platform" />
+        <module name="service-api" />
+        <module name="service-student" />
+        <module name="service-api-task" />
+        <module name="service-teacher" />
+        <module name="service-api-teacher" />
+        <module name="service-task" />
+        <module name="task" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="service-api-task" target="1.5" />
+      <module name="task" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
